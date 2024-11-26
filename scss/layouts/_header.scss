@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 44px;
+  padding-bottom: 44px;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+  }
+
+  &__link {
+    color: var(--grey);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.25;
+    letter-spacing: 0.09;
+    text-transform: uppercase;
+    transition: 0.3s;
+
+    &:hover {
+      color: var(--dark-grey-blue);
+    }
+  }
+}
